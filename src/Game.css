@@ -1,0 +1,23 @@
+.block {
+  background: rgb(100, 210, 250);
+  border: 1px solid #555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #aaa;
+}
+
+.block:hover {
+  background: rgb(52, 109, 255);
+}
+
+.grid {
+  display: grid;
+  grid-template-rows: 200px 200px 200px;
+  grid-template-columns: 200px 200px 200px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
